@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewEncoder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="..\bin\NewEncoder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="..\XSEP\include" />
+					<Add directory="..\..\OpenCV\cv\include" />
+					<Add directory="..\..\OpenCV\cxcore\include" />
+					<Add directory="..\..\OpenCV\cvaux\include" />
+					<Add directory="..\..\OpenCV\otherlibs\highgui" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="cv" />
+					<Add library="XSEP" />
+					<Add library="cvaux" />
+					<Add library="cxcore" />
+					<Add library="highgui" />
+					<Add library="ml" />
+					<Add library="cxts" />
+					<Add directory="..\lib" />
+					<Add directory="..\..\OpenCV\lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="..\bin\NewEncoderd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="c:\MyApps\bin\encoder.xml" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="..\XSEP\include" />
+					<Add directory="..\..\OpenCV\cv\include" />
+					<Add directory="..\..\OpenCV\cxcore\include" />
+					<Add directory="..\..\OpenCV\cvaux\include" />
+					<Add directory="..\..\OpenCV\otherlibs\highgui" />
+				</Compiler>
+				<Linker>
+					<Add library="cv" />
+					<Add library="XSEPd" />
+					<Add library="cvaux" />
+					<Add library="cxcore" />
+					<Add library="highgui" />
+					<Add library="ml" />
+					<Add library="cxts" />
+					<Add library="XSEP" />
+					<Add directory="..\lib" />
+					<Add directory="..\..\OpenCV\lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="NewEncoder.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<search_path add="..\XSEP\src" />
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

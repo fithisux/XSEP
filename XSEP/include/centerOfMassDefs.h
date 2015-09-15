@@ -1,0 +1,7 @@
+#ifndef CENTEROFMASSDEFS_H_
+#define CENTEROFMASSDEFS_H_
+
+#define COM_MAX_FORCE 100
+
+
+#endif /*CENTEROFMASSDEFS_H_*/

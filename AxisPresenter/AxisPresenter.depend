@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1227777408 source:c:\winoss\msys\home\fithis\cbproj\axispresenter\axispresenter.cpp
+	"frameGrabber.h"
+
+1209982326 c:\winoss\msys\home\fithis\cbproj\xsep\include\framegrabber.h
+	"confParametersDefs.h"
+	"frameUtilities.h"
+	"highgui.h"
+
+1209371634 c:\winoss\msys\home\fithis\cbproj\xsep\include\confparametersdefs.h
+	"XSEP.h"
+
+1211199798 c:\winoss\msys\home\fithis\cbproj\xsep\include\xsep.h
+
+1209982751 c:\winoss\msys\home\fithis\cbproj\xsep\include\frameutilities.h
+	"XSEP.h"
+	<stdio.h>
+	<stdlib.h>
+
+1160572792 c:\winoss\msys\home\fithis\opencv\otherlibs\highgui\highgui.h
+	"cxcore.h"
+	<windows.h>
+	<chdl.h>
+
+1158757762 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxcore.h
+	"ipl.h"
+	"ipl/ipl.h"
+	"cxtypes.h"
+	"cxerror.h"
+	"cvver.h"
+	"cxcore.hpp"
+
+1157729594 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxtypes.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<mathimf.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1157549068 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxerror.h
+
+1160678526 c:\winoss\msys\home\fithis\opencv\cxcore\include\cvver.h
+
+1160150394 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxcore.hpp
+

@@ -1,0 +1,912 @@
+# depslib dependency file v1.0
+1226402782 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\austrianthread.cpp
+	"AustrianThread.h"
+
+1208952848 c:\winoss\msys\home\fithis\cbproj\xsep\include\austrianthread.h
+	"encoderSpecifics.h"
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\encoderspecifics.h
+	"stringIsolator.h"
+	"configuratorIsolator.h"
+	"generalConf.h"
+	"frameUtilities.h"
+
+1208955091 c:\winoss\msys\home\fithis\cbproj\xsep\include\stringisolator.h
+	"XSEP.h"
+	"stdio.h"
+
+1211199798 c:\winoss\msys\home\fithis\cbproj\xsep\include\xsep.h
+
+1176302081 c:\winoss\msys\home\fithis\cbproj\xsep\include\configuratorisolator.h
+	"confParametersDefs.h"
+	<stdio.h>
+
+1209371634 c:\winoss\msys\home\fithis\cbproj\xsep\include\confparametersdefs.h
+	"XSEP.h"
+
+1208952761 c:\winoss\msys\home\fithis\cbproj\xsep\include\generalconf.h
+	<ptypes.h>
+	<ptime.h>
+	<pasync.h>
+	<pinet.h>
+	<pport.h>
+	<pstreams.h>
+	<stdio.h>
+
+1182945949 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\ptypes.h
+	"pport.h"
+	<string.h>
+
+1182945948 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\pport.h
+	<stdint.h>
+	<sys/types.h>
+
+1182945949 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\ptime.h
+	"pport.h"
+	"ptypes.h"
+	<time.h>
+
+1182945948 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\pasync.h
+	<windows.h>
+	<pthread.h>
+	<semaphore.h>
+	"pport.h"
+	"ptypes.h"
+
+1182945948 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\pinet.h
+	"pport.h"
+	"ptypes.h"
+	"pstreams.h"
+	<winsock2.h>
+	<netdb.h>
+	<sys/types.h>
+	<sys/socket.h>
+
+1182945949 c:\winoss\msys\home\fithis\ptypes-2.1.1\include\pstreams.h
+	"pport.h"
+	"ptypes.h"
+	"pasync.h"
+	<stdarg.h>
+	<errno.h>
+	"windows.h"
+
+1209982751 c:\winoss\msys\home\fithis\cbproj\xsep\include\frameutilities.h
+	"XSEP.h"
+	<stdio.h>
+	<stdlib.h>
+
+1175772773 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\bayespredictor.cpp
+	"BayesPredictor.h"
+	<stdio.h>
+	<iostream>
+
+1175772773 c:\winoss\msys\home\fithis\cbproj\xsep\include\bayespredictor.h
+	"PixelLevel.h"
+
+1209370841 c:\winoss\msys\home\fithis\cbproj\xsep\include\pixellevel.h
+	"cxcore.h"
+	"cv.h"
+	"cvaux.h"
+	"fithisConnectedRegions.h"
+	"confParameters.h"
+	"bgUtilities.h"
+	"simpleMotionBasedFilter.h"
+	"XSEP.h"
+
+1158757762 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxcore.h
+	"ipl.h"
+	"ipl/ipl.h"
+	"cxtypes.h"
+	"cxerror.h"
+	"cvver.h"
+	"cxcore.hpp"
+
+1157729594 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxtypes.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<mathimf.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1157549068 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxerror.h
+
+1160678526 c:\winoss\msys\home\fithis\opencv\cxcore\include\cvver.h
+
+1160150394 c:\winoss\msys\home\fithis\opencv\cxcore\include\cxcore.hpp
+
+1159372962 c:\winoss\msys\home\fithis\opencv\cv\include\cv.h
+	<chdl.h>
+	"cxcore.h"
+	"cvtypes.h"
+	"cv.hpp"
+	"cvcompat.h"
+
+1132684936 c:\winoss\msys\home\fithis\opencv\cv\include\cvtypes.h
+	<assert.h>
+	<stdlib.h>
+
+1157542820 c:\winoss\msys\home\fithis\opencv\cv\include\cv.hpp
+
+1152719240 c:\winoss\msys\home\fithis\opencv\cv\include\cvcompat.h
+	<string.h>
+
+1146756814 c:\winoss\msys\home\fithis\opencv\cvaux\include\cvaux.h
+	<cv.h>
+	"cvaux.hpp"
+	"cvvidsurv.hpp"
+
+1146731882 c:\winoss\msys\home\fithis\opencv\cvaux\include\cvaux.hpp
+
+1157552426 c:\winoss\msys\home\fithis\opencv\cvaux\include\cvvidsurv.hpp
+	<stdio.h>
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\fithisconnectedregions.h
+	"cxcore.h"
+	"cv.h"
+	"bgUtilities.h"
+
+1208606868 c:\winoss\msys\home\fithis\cbproj\xsep\include\bgutilities.h
+	<direct.h>
+	<stdlib.h>
+	<stdio.h>
+	"cxcore.h"
+	"cv.h"
+	"highgui.h"
+	"cvaux.h"
+	<vector>
+	<iostream>
+	<fstream>
+	"XSEP.h"
+
+1160572792 c:\winoss\msys\home\fithis\opencv\otherlibs\highgui\highgui.h
+	"cxcore.h"
+	<windows.h>
+	<chdl.h>
+
+1208954918 c:\winoss\msys\home\fithis\cbproj\xsep\include\confparameters.h
+	"confParametersDefs.h"
+	<string>
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\simplemotionbasedfilter.h
+	"cxcore.h"
+	"fithisConnectedRegions.h"
+
+1208955142 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\compredictor.cpp
+	"COMPredictor.h"
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\compredictor.h
+	"PixelLevel.h"
+	"centerOfMassCluster.h"
+	<boost/pool/poolfwd.hpp>
+	<boost/pool/pool.hpp>
+	<stdio.h>
+	<iostream>
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\centerofmasscluster.h
+	"cxcore.h"
+	<boost/pool/poolfwd.hpp>
+	<boost/pool/pool.hpp>
+
+1096372545 c:\winoss\msys\local\include\boost\pool\poolfwd.hpp
+	<boost/config.hpp>
+	<cstddef>
+	<boost/pool/detail/mutex.hpp>
+
+1088727692 c:\winoss\msys\local\include\boost\config.hpp
+	<boost/config/select_compiler_config.hpp>
+	<boost/config/select_stdlib_config.hpp>
+	<boost/config/select_platform_config.hpp>
+	<boost/config/suffix.hpp>
+
+1221819849 c:\winoss\msys\local\include\boost\config\select_compiler_config.hpp
+
+1129736320 c:\winoss\msys\local\include\boost\config\select_stdlib_config.hpp
+	<boost/config/no_tr1/utility.hpp>
+
+1129736320 c:\winoss\msys\local\include\boost\config\no_tr1\utility.hpp
+	<utility>
+
+1131109064 c:\winoss\msys\local\include\boost\config\select_platform_config.hpp
+	<boost/config/posix_features.hpp>
+
+1129295786 c:\winoss\msys\local\include\boost\config\posix_features.hpp
+	<unistd.h>
+
+1223564883 c:\winoss\msys\local\include\boost\config\suffix.hpp
+	<limits.h>
+	<cstddef>
+	"boost/type.hpp"
+	"boost/non_type.hpp"
+
+1090798332 c:\winoss\msys\local\include\boost\type.hpp
+
+1084695475 c:\winoss\msys\local\include\boost\non_type.hpp
+
+1223650543 c:\winoss\msys\local\include\boost\pool\detail\mutex.hpp
+	<boost/config.hpp>
+	<unistd.h>
+	<windows.h>
+	<pthread.h>
+
+1196014039 c:\winoss\msys\local\include\boost\pool\pool.hpp
+	<boost/config.hpp>
+	<functional>
+	<new>
+	<cstddef>
+	<cstdlib>
+	<exception>
+	<algorithm>
+	<boost/pool/poolfwd.hpp>
+	<boost/pool/detail/ct_gcd_lcm.hpp>
+	<boost/pool/detail/gcd_lcm.hpp>
+	<boost/pool/simple_segregated_storage.hpp>
+
+1096372545 c:\winoss\msys\local\include\boost\pool\detail\ct_gcd_lcm.hpp
+	<boost/static_assert.hpp>
+	<boost/type_traits/ice.hpp>
+
+1215769771 c:\winoss\msys\local\include\boost\static_assert.hpp
+	<boost/config.hpp>
+	<boost/detail/workaround.hpp>
+
+1195837394 c:\winoss\msys\local\include\boost\detail\workaround.hpp
+	<boost/config.hpp>
+
+1128691598 c:\winoss\msys\local\include\boost\type_traits\ice.hpp
+	<boost/type_traits/detail/yes_no_type.hpp>
+	<boost/type_traits/detail/ice_or.hpp>
+	<boost/type_traits/detail/ice_and.hpp>
+	<boost/type_traits/detail/ice_not.hpp>
+	<boost/type_traits/detail/ice_eq.hpp>
+
+1070458451 c:\winoss\msys\local\include\boost\type_traits\detail\yes_no_type.hpp
+
+1128691598 c:\winoss\msys\local\include\boost\type_traits\detail\ice_or.hpp
+	<boost/config.hpp>
+
+1128691598 c:\winoss\msys\local\include\boost\type_traits\detail\ice_and.hpp
+	<boost/config.hpp>
+
+1128691598 c:\winoss\msys\local\include\boost\type_traits\detail\ice_not.hpp
+	<boost/config.hpp>
+
+1128691598 c:\winoss\msys\local\include\boost\type_traits\detail\ice_eq.hpp
+	<boost/config.hpp>
+
+1096372545 c:\winoss\msys\local\include\boost\pool\detail\gcd_lcm.hpp
+
+1096372545 c:\winoss\msys\local\include\boost\pool\simple_segregated_storage.hpp
+	<functional>
+	<boost/pool/poolfwd.hpp>
+
+1208955153 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\dkosmopredictor.cpp
+	"DKOSMOPredictor.h"
+	<stdio.h>
+	<iostream>
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\dkosmopredictor.h
+	"PixelLevel.h"
+	"condensationCore.h"
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\condensationcore.h
+	"bgUtilities.h"
+
+1174311780 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\kmeans.cpp
+	"KMeans.h"
+	<stdio.h>
+
+1208955215 c:\winoss\msys\home\fithis\cbproj\xsep\include\kmeans.h
+	<vector>
+	<cv.h>
+	<highgui.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1175767368 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\mogpredictor.cpp
+	"MOGPredictor.h"
+	<stdio.h>
+	<iostream>
+
+1175767376 c:\winoss\msys\home\fithis\cbproj\xsep\include\mogpredictor.h
+	"PixelLevel.h"
+
+1208955222 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\ntuapredictor.cpp
+	"NTUAPredictor.h"
+	<stdio.h>
+	<iostream>
+
+1208955265 c:\winoss\msys\home\fithis\cbproj\xsep\include\ntuapredictor.h
+	"PixelLevel.h"
+
+1208955225 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\pixellevel.cpp
+	"PixelLevel.h"
+
+1208955113 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\sompredictor.cpp
+	"SOMPredictor.h"
+	"highgui.h"
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\sompredictor.h
+	"PixelLevel.h"
+	"SOM_condensationCore.h"
+	<boost/pool/poolfwd.hpp>
+	<boost/pool/pool.hpp>
+	<stdio.h>
+	<iostream>
+
+1208955259 c:\winoss\msys\home\fithis\cbproj\xsep\include\som_condensationcore.h
+	"cxcore.h"
+	"bgUtilities.h"
+	<boost/pool/poolfwd.hpp>
+	<boost/pool/pool.hpp>
+
+1210927427 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\som_condensationcore.cpp
+	"SOM_condensationCore.h"
+
+1208954968 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\spanishthread.cpp
+	"SpanishThread.h"
+
+1208953193 c:\winoss\msys\home\fithis\cbproj\xsep\include\spanishthread.h
+	"encoderSpecifics.h"
+
+1208603806 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\xsep.cpp
+	<windows.h>
+	"XSEP.h"
+
+1227601477 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\axistransaction.cpp
+	"axisTransaction.h"
+	"generalConf.h"
+
+1220531805 c:\winoss\msys\home\fithis\cbproj\xsep\include\axistransaction.h
+	"frameUtilities.h"
+
+1208607062 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\bgutilities.cpp
+	"bgUtilities.h"
+	<stdio.h>
+
+1174311780 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\bmpparser.cpp
+	"bmpParser.h"
+
+1174311780 c:\winoss\msys\home\fithis\cbproj\xsep\include\bmpparser.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1174311780 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\cameramodule.cpp
+	"cameraModule.h"
+	<iostream>
+	<exception>
+
+1227179942 c:\winoss\msys\home\fithis\cbproj\xsep\include\cameramodule.h
+	"cxcore.h"
+	"cv.h"
+	"highgui.h"
+	"Magick++/Blob.h"
+	"Magick++/Image.h"
+	"Magick++/Pixels.h"
+	"axisTransaction.h"
+	"frameUtilities.h"
+	<string>
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick++\blob.h
+	"Magick++/Include.h"
+	<string>
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\include.h
+	"magick/magick_config.h"
+	"magick_config.h"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<time.h>
+	<sys/types.h>
+	<vcl.h>
+	<magick/api.h>
+	"magick/enum_strings.h"
+
+1232301817 c:\winoss\msys\local\include\graphicsmagick\magick\magick_config.h
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\api.h
+	"magick/magick_config.h"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	"magick/symbols.h"
+	"magick/magick_types.h"
+	"magick/error.h"
+	"magick/log.h"
+	"magick/timer.h"
+	"magick/image.h"
+	"magick/channel.h"
+	"magick/compare.h"
+	"magick/list.h"
+	"magick/paint.h"
+	"magick/render.h"
+	"magick/draw.h"
+	"magick/gem.h"
+	"magick/quantize.h"
+	"magick/compress.h"
+	"magick/attribute.h"
+	"magick/command.h"
+	"magick/utility.h"
+	"magick/signature.h"
+	"magick/blob.h"
+	"magick/color.h"
+	"magick/constitute.h"
+	"magick/decorate.h"
+	"magick/enhance.h"
+	"magick/fx.h"
+	"magick/magick.h"
+	"magick/memory.h"
+	"magick/montage.h"
+	"magick/effect.h"
+	"magick/resize.h"
+	"magick/shear.h"
+	"magick/transform.h"
+	"magick/composite.h"
+	"magick/registry.h"
+	"magick/magick.h"
+	"magick/magic.h"
+	"magick/delegate.h"
+	"magick/module.h"
+	"magick/monitor.h"
+	"magick/operator.h"
+	"magick/pixel_cache.h"
+	"magick/pixel_iterator.h"
+	"magick/profile.h"
+	"magick/resource.h"
+	"magick/version.h"
+	"magick/deprecate.h"
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\symbols.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\magick_types.h
+	<stdint.h>
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\error.h
+	<magick/log.h>
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\log.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\timer.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\image.h
+	"magick/forward.h"
+	"magick/colorspace.h"
+	"magick/error.h"
+	"magick/timer.h"
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\forward.h
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\colorspace.h
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\channel.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\compare.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\list.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\paint.h
+	"magick/render.h"
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\render.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\draw.h
+	"magick/render.h"
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\gem.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\quantize.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\compress.h
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\attribute.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\command.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\utility.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\signature.h
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\blob.h
+	"magick/image.h"
+
+1232301837 c:\winoss\msys\local\include\graphicsmagick\magick\color.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\constitute.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\decorate.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\enhance.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\fx.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\magick.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\memory.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\montage.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\effect.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\resize.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\shear.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\transform.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\composite.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\registry.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\magic.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\delegate.h
+	"ghostscript/iapi.h"
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\module.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\monitor.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\operator.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\pixel_cache.h
+	"magick/forward.h"
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\pixel_iterator.h
+
+1232301839 c:\winoss\msys\local\include\graphicsmagick\magick\profile.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\resource.h
+
+1232301840 c:\winoss\msys\local\include\graphicsmagick\magick\version.h
+
+1232301838 c:\winoss\msys\local\include\graphicsmagick\magick\deprecate.h
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\image.h
+	"Magick++/Include.h"
+	<string>
+	<list>
+	"Magick++/Blob.h"
+	"Magick++/Color.h"
+	"Magick++/Drawable.h"
+	"Magick++/Exception.h"
+	"Magick++/Geometry.h"
+	"Magick++/TypeMetric.h"
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\color.h
+	"Magick++/Include.h"
+	<string>
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\drawable.h
+	"Magick++/Include.h"
+	<functional>
+	<string>
+	<list>
+	<utility>
+	"Magick++/Color.h"
+	"Magick++/Geometry.h"
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\geometry.h
+	"Magick++/Include.h"
+	<string>
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\exception.h
+	"Magick++/Include.h"
+	<string>
+	<exception>
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\typemetric.h
+	"Magick++/Include.h"
+
+1232301841 c:\winoss\msys\local\include\graphicsmagick\magick++\pixels.h
+	"Magick++/Include.h"
+	"Magick++/Color.h"
+	"Magick++/Image.h"
+
+1208955139 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\centerofmasscluster.cpp
+	"centerOfMassCluster.h"
+	<math.h>
+
+1208955145 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\condensationcore.cpp
+	"condensationCore.h"
+
+1209371611 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\confparameters.cpp
+	"confParameters.h"
+	"confParametersXMLOps.h"
+
+1209371877 c:\winoss\msys\home\fithis\cbproj\xsep\include\confparametersxmlops.h
+	"XSEP.h"
+	"confXMLUtilities.h"
+	"confParametersDefs.h"
+	"configuratorIsolator.h"
+
+1208955043 c:\winoss\msys\home\fithis\cbproj\xsep\include\confxmlutilities.h
+	<libxml/parser.h>
+	<libxml/tree.h>
+	"string.h"
+	"XSEP.h"
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1227537138 c:\winoss\msys\local\include\libxml2\libxml\xmlexports.h
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\tree.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1227537138 c:\winoss\msys\local\include\libxml2\libxml\xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1227537138 c:\winoss\msys\local\include\libxml2\libxml\dict.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\xmlerror.h
+	<libxml/parser.h>
+
+1227537135 c:\winoss\msys\local\include\libxml2\libxml\sax.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1227537138 c:\winoss\msys\local\include\libxml2\libxml\sax2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\list.h
+	<libxml/xmlversion.h>
+
+1227537137 c:\winoss\msys\local\include\libxml2\libxml\xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1227537135 c:\winoss\msys\local\include\libxml2\libxml\entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1227537135 c:\winoss\msys\local\include\libxml2\libxml\encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<libxml/tree.h>
+
+1228136513 c:\winoss\msys\local\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+
+1227537136 c:\winoss\msys\local\include\libxml2\libxml\xmlio.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1209370602 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\confparametersdefs.cpp
+	"confParametersDefs.h"
+	"cxtypes.h"
+	"cv.h"
+	"cxcore.h"
+	"cvaux.h"
+
+1209371828 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\confparametersxmlops.cpp
+	"confParametersXMLOps.h"
+	"confParametersDefs.h"
+	"cxtypes.h"
+	"cv.h"
+	"cxcore.h"
+	"cvaux.h"
+
+1209108733 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\confxmlutilities.cpp
+	"confXMLUtilities.h"
+
+1174311780 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\configuratorisolator.cpp
+	"configuratorIsolator.h"
+	"confParametersXMLOps.h"
+
+1208955150 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\contourdetector.cpp
+	"contourDetector.h"
+	"bgUtilities.h"
+
+1208955080 c:\winoss\msys\home\fithis\cbproj\xsep\include\contourdetector.h
+	"simpleMotionBasedFilter.h"
+	"cxcore.h"
+	"cv.h"
+	<stdio.h>
+	"fithisConnectedRegions.h"
+	"confParametersDefs.h"
+
+1174311780 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\encoderconfigurator.cpp
+	"encoderConfigurator.h"
+	"confParametersXMLOps.h"
+	<string>
+
+1213082066 c:\winoss\msys\home\fithis\cbproj\xsep\include\encoderconfigurator.h
+	"configuratorIsolator.h"
+	"XSEP.h"
+
+1208955013 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\encoderisolator.cpp
+	"encoderIsolator.h"
+	"GrabberThread.h"
+	"AustrianThread.h"
+	"SpanishThread.h"
+
+1213082104 c:\winoss\msys\home\fithis\cbproj\xsep\include\encoderisolator.h
+	"stringIsolator.h"
+	"configuratorIsolator.h"
+	"XSEP.h"
+
+1232303200 c:\winoss\msys\home\fithis\cbproj\xsep\include\grabberthread.h
+	"encoderSpecifics.h"
+	"hiddenVideoWriter.h"
+	"axisTransaction.h"
+	<pasync.h>
+	<ptime.h>
+	<pstreams.h>
+
+1208955020 c:\winoss\msys\home\fithis\cbproj\xsep\include\hiddenvideowriter.h
+	"frameUtilities.h"
+
+1208955159 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\facedetector.cpp
+	"faceDetector.h"
+
+1208955088 c:\winoss\msys\home\fithis\cbproj\xsep\include\facedetector.h
+	"bgUtilities.h"
+	"confParametersDefs.h"
+
+1208955172 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\fithisconnectedregions.cpp
+	"fithisConnectedRegions.h"
+	<stdio.h>
+	"highgui.h"
+
+1209982342 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\framegrabber.cpp
+	"frameGrabber.h"
+	"cameraModule.h"
+
+1209982326 c:\winoss\msys\home\fithis\cbproj\xsep\include\framegrabber.h
+	"confParametersDefs.h"
+	"frameUtilities.h"
+	"highgui.h"
+
+1232299888 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\frameutilities.cpp
+	"frameUtilities.h"
+	"generalConf.h"
+
+1176888572 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\nonlinearmodule.cpp
+	"nonLinearModule.h"
+
+1208955218 c:\winoss\msys\home\fithis\cbproj\xsep\include\nonlinearmodule.h
+	"KMeans.h"
+	"bgUtilities.h"
+
+1208955229 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\shadowclass.cpp
+	<stdio.h>
+	<iostream>
+	"shadowclass.h"
+
+1209394201 c:\winoss\msys\home\fithis\cbproj\xsep\include\shadowclass.h
+	"bgUtilities.h"
+	"fithisConnectedRegions.h"
+	"confParameters.h"
+	"XSEP.h"
+
+1208955238 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\simplemotionbasedfilter.cpp
+	"simpleMotionBasedFilter.h"
+
+1208955251 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\stringisolator.cpp
+	"stringIsolator.h"
+	<string.h>
+	<vector>
+
+1209395703 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\subtraction.cpp
+	"subtraction.h"
+	"cxcore.h"
+	"PixelLevel.h"
+	"BayesPredictor.h"
+	"MOGPredictor.h"
+	"NTUAPredictor.h"
+	"DKOSMOPredictor.h"
+	"SOMPredictor.h"
+	"COMPredictor.h"
+
+1210783373 c:\winoss\msys\home\fithis\cbproj\xsep\include\subtraction.h
+	<iostream>
+	<fstream>
+	"PixelLevel.h"
+	"faceDetector.h"
+	"confParameters.h"
+	"contourDetector.h"
+	"fithisConnectedRegions.h"
+	"frameGrabber.h"
+	"shadowclass.h"
+	"cv.h"
+	<stdio.h>
+	"XSEP.h"
+
+1227601269 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\successivekmeans.cpp
+	"successiveKMeans.h"
+	<stdio.h>
+
+1208955077 c:\winoss\msys\home\fithis\cbproj\xsep\include\successivekmeans.h
+	"NTUAPredictor.h"
+
+1232305149 source:c:\winoss\msys\home\fithis\cbproj\xsep\src\grabberthread.cpp
+	"GrabberThread.h"
+	<direct.h>
+	<stdlib.h>
+	<stdio.h>
+

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="XSEP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\bin\XSEPd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option parameters="c:\MyApps\bin\encoder.xml" />
+				<Option host_application="NewEncoderd.exe" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-DLIBXML_STATIC" />
+					<Add option="-DXML_LIBRARY" />
+					<Add option="-D_WIN32" />
+					<Add directory="c:\WINOSS\msys\local\include" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\ptypes-2.1.1\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cxcore\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cv\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cvaux\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\otherlibs\highgui" />
+					<Add directory="c:\sunjava\include" />
+					<Add directory="c:\sunjava\include\win32" />
+					<Add directory="include" />
+					<Add directory="c:\WINOSS\msys\local\include\GraphicsMagick" />
+					<Add directory="c:\WINOSS\msys\local\include\libxml2" />
+				</Compiler>
+				<Linker>
+					<Add option="--enable-auto-import" />
+					<Add option="-Wl,--out-implib,..\\lib\\libXSEPd.dll.a" />
+					<Add library="user32" />
+					<Add library="ptypes21" />
+					<Add library="xerces-c" />
+					<Add library="xerces-depdom" />
+					<Add library="cv" />
+					<Add library="cvaux" />
+					<Add library="ml" />
+					<Add library="cxcore" />
+					<Add library="highgui" />
+					<Add library="xml2" />
+					<Add library="bz2" />
+					<Add library="z" />
+					<Add library="ws2_32" />
+					<Add library="iconv" />
+					<Add library="expat" />
+					<Add library="GraphicsMagick++" />
+					<Add library="GraphicsMagick" />
+					<Add library="GraphicsMagickWand" />
+					<Add library="tiff" />
+					<Add library="png" />
+					<Add library="jbig" />
+					<Add library="jpeg" />
+					<Add library="freetype" />
+					<Add library="lcms" />
+					<Add library="jasper" />
+					<Add library="wmflite" />
+					<Add library="wmf" />
+					<Add library="jvm" />
+					<Add library="kernel32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\ptypes-2.1.1\win32\DLL_Release" />
+					<Add directory="c:\WINOSS\msys\local\lib" />
+					<Add directory="c:\sunjava\lib" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\OpenCV\lib" />
+					<Add directory="c:\winoss\msys\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="..\bin\XSEP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DWIN32" />
+					<Add option="-DXML_LIBRARY" />
+					<Add option="-D_WIN32" />
+					<Add directory="c:\WINOSS\msys\local\include" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\ptypes-2.1.1\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cxcore\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cv\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\cvaux\include" />
+					<Add directory="c:\winoss\msys\home\FITHIS\opencv\otherlibs\highgui" />
+					<Add directory="c:\sunjava\include" />
+					<Add directory="c:\sunjava\include\win32" />
+					<Add directory="include" />
+					<Add directory="c:\WINOSS\msys\local\include\GraphicsMagick" />
+					<Add directory="c:\WINOSS\msys\local\include\libxml2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="--enable-auto-import" />
+					<Add option="-Wl,--out-implib,..\\lib\\libXSEP.dll.a" />
+					<Add library="user32" />
+					<Add library="ptypes21" />
+					<Add library="xerces-c" />
+					<Add library="xerces-depdom" />
+					<Add library="cv" />
+					<Add library="cvaux" />
+					<Add library="ml" />
+					<Add library="cxcore" />
+					<Add library="highgui" />
+					<Add library="xml2" />
+					<Add library="bz2" />
+					<Add library="z" />
+					<Add library="ws2_32" />
+					<Add library="iconv" />
+					<Add library="expat" />
+					<Add library="GraphicsMagick++" />
+					<Add library="GraphicsMagick" />
+					<Add library="GraphicsMagickWand" />
+					<Add library="tiff" />
+					<Add library="png" />
+					<Add library="jbig" />
+					<Add library="jpeg" />
+					<Add library="freetype" />
+					<Add library="lcms" />
+					<Add library="jasper" />
+					<Add library="wmflite" />
+					<Add library="wmf" />
+					<Add library="jvm" />
+					<Add library="kernel32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\ptypes-2.1.1\win32\DLL_Release" />
+					<Add directory="c:\WINOSS\msys\local\lib" />
+					<Add directory="c:\sunjava\lib" />
+					<Add directory="c:\WINOSS\msys\home\FITHIS\OpenCV\lib" />
+					<Add directory="c:\winoss\msys\lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include\AllocationMatrix.h" />
+		<Unit filename="include\AustrianThread.h" />
+		<Unit filename="include\BayesPredictor.h" />
+		<Unit filename="include\COMPredictor.h" />
+		<Unit filename="include\DKOSMOPredictor.h" />
+		<Unit filename="include\GrabberThread.h" />
+		<Unit filename="include\KMeans.h" />
+		<Unit filename="include\MOGPredictor.h" />
+		<Unit filename="include\MetaProcessor.h" />
+		<Unit filename="include\NTUAPredictor.h" />
+		<Unit filename="include\PixelLevel.h" />
+		<Unit filename="include\SOMPredictor.h" />
+		<Unit filename="include\SOM_condensationCore.h" />
+		<Unit filename="include\STGraph.h" />
+		<Unit filename="include\SpanishThread.h" />
+		<Unit filename="include\XSEP.h" />
+		<Unit filename="include\axisTransaction.h" />
+		<Unit filename="include\bgUtilities.h" />
+		<Unit filename="include\bmpParser.h" />
+		<Unit filename="include\cameraModule.h" />
+		<Unit filename="include\centerOfMassCluster.h" />
+		<Unit filename="include\centerOfMassDefs.h" />
+		<Unit filename="include\condensationCore.h" />
+		<Unit filename="include\confParameters.h" />
+		<Unit filename="include\confParametersDefs.h" />
+		<Unit filename="include\confParametersXMLOps.h" />
+		<Unit filename="include\confXMLUtilities.h" />
+		<Unit filename="include\configuratorIsolator.h" />
+		<Unit filename="include\contourDetector.h" />
+		<Unit filename="include\encoderConfigurator.h" />
+		<Unit filename="include\encoderIsolator.h" />
+		<Unit filename="include\encoderSpecifics.h" />
+		<Unit filename="include\faceDetector.h" />
+		<Unit filename="include\fithisConnectedRegions.h" />
+		<Unit filename="include\frameGrabber.h" />
+		<Unit filename="include\frameUtilities.h" />
+		<Unit filename="include\generalConf.h" />
+		<Unit filename="include\hiddenVideoWriter.h" />
+		<Unit filename="include\index.h" />
+		<Unit filename="include\nonLinearModule.h" />
+		<Unit filename="include\pixel.h" />
+		<Unit filename="include\region.h" />
+		<Unit filename="include\shadowclass.h" />
+		<Unit filename="include\simpleMotionBasedFilter.h" />
+		<Unit filename="include\stringIsolator.h" />
+		<Unit filename="include\subtraction.h" />
+		<Unit filename="include\subtractionlogging.h" />
+		<Unit filename="include\successiveKMeans.h" />
+		<Unit filename="src\AustrianThread.cpp" />
+		<Unit filename="src\BayesPredictor.cpp" />
+		<Unit filename="src\COMPredictor.cpp" />
+		<Unit filename="src\DKOSMOPredictor.cpp" />
+		<Unit filename="src\GrabberThread.cpp" />
+		<Unit filename="src\KMeans.cpp" />
+		<Unit filename="src\MOGPredictor.cpp" />
+		<Unit filename="src\NTUAPredictor.cpp" />
+		<Unit filename="src\PixelLevel.cpp" />
+		<Unit filename="src\SOMPredictor.cpp" />
+		<Unit filename="src\SOM_condensationCore.cpp" />
+		<Unit filename="src\SpanishThread.cpp" />
+		<Unit filename="src\XSEP.cpp" />
+		<Unit filename="src\axisTransaction.cpp" />
+		<Unit filename="src\bgUtilities.cpp" />
+		<Unit filename="src\bmpParser.cpp" />
+		<Unit filename="src\cameraModule.cpp" />
+		<Unit filename="src\centerOfMassCluster.cpp" />
+		<Unit filename="src\condensationCore.cpp" />
+		<Unit filename="src\confParameters.cpp" />
+		<Unit filename="src\confParametersDefs.cpp" />
+		<Unit filename="src\confParametersXMLOps.cpp" />
+		<Unit filename="src\confXMLUtilities.cpp" />
+		<Unit filename="src\configuratorIsolator.cpp" />
+		<Unit filename="src\contourDetector.cpp" />
+		<Unit filename="src\encoderConfigurator.cpp" />
+		<Unit filename="src\encoderIsolator.cpp" />
+		<Unit filename="src\faceDetector.cpp" />
+		<Unit filename="src\fithisConnectedRegions.cpp" />
+		<Unit filename="src\frameGrabber.cpp" />
+		<Unit filename="src\frameUtilities.cpp" />
+		<Unit filename="src\nonLinearModule.cpp" />
+		<Unit filename="src\shadowclass.cpp" />
+		<Unit filename="src\simpleMotionBasedFilter.cpp" />
+		<Unit filename="src\stringIsolator.cpp" />
+		<Unit filename="src\subtraction.cpp" />
+		<Unit filename="src\successiveKMeans.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="..\..\ptypes-2.1.1\include" />
+			</code_completion>
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
